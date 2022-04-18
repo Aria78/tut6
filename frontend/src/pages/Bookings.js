@@ -41,7 +41,7 @@ class BookingsPage extends Component {
       }
     }
 
-    fetch('http://localhost:8000/graphql', {
+    fetch('http://44.228.88.234:8000/graphql', {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: {
@@ -84,7 +84,7 @@ class BookingsPage extends Component {
       `
     }
 
-    fetch('http://localhost:8000/graphql', {
+    fetch('http://44.228.88.234:8000/graphql', {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: {
